@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from tut.snippets.models import Snippet
+from snippets.models import Snippet
 from django.contrib.auth.models import User
 
 

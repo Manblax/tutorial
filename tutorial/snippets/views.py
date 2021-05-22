@@ -1,8 +1,8 @@
-from tut.snippets.models import Snippet
-from tut.snippets.serializers import SnippetSerializer, UserSerializer
+from snippets.models import Snippet
+from snippets.serializers import SnippetSerializer, UserSerializer
 from django.contrib.auth.models import User
 from rest_framework import permissions
-from tut.snippets.permissions import IsOwnerOrReadOnly
+from snippets.permissions import IsOwnerOrReadOnly
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework.reverse import reverse
